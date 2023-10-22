@@ -8,13 +8,12 @@ $result = $num1 + $num2;
 if ($result > 200)
 {
     echo ("La somme est plus de 200");
-} 
-else 
+} else 
 {
     echo ("La somme est : $result");
 }
 
-for (; $i <=100 ; $i++) { 
+for (; $i <100 ; $i++) { 
     echo("<br>Je suis stagiaire a ITIAM");
 }
 
