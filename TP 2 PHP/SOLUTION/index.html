@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>TP2PHP</title>
+  </head>
+  <body>
+    <form action="ten.php" method="POST">
+      <label for="nom">Nom:</label>
+
+      <input type="text" name="nom" id="nom" required />
+
+      <br />
+
+      <label for="prenom">Prénom:</label>
+
+      <input type="text" name="prenom" id="prenom" required />
+
+      <br />
+
+      <label for="date_de_naissance">Date de naissance:</label>
+
+      <input
+        type="date"
+        name="date_de_naissance"
+        id="date_de_naissance"
+        required
+      />
+      <br />
+      <label for="ecole_universite">École/Université:</label>
+      <input
+        type="text"
+        name="ecole_universite"
+        id="ecole_universite"
+        required
+      />
+      <br />
+      <label for="specialisation">Spécialisation:</label>
+      <input type="text" name="specialisation" id="specialisation" required />
+      <br />
+      <label for="date_debut_stage">Date de début du stage:</label>
+      <input
+        type="date"
+        name="date_debut_stage"
+        id="date_debut_stage"
+        required
+      />
+      <br />
+      <input type="submit" value="Enregistrer" />
+    </form>
+  </body>
+</html>
