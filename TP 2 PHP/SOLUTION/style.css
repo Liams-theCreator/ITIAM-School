@@ -1,11 +1,12 @@
 form {
   width: 500px;
-  margin: 150px auto;
+  margin: 100px auto;
+  font-family: "Josefin Sans";
 }
 
 label {
-  display: block;
-  margin-bottom: 10px;
+  display: flex;
+  padding-top: 20px;
 }
 
 input {
@@ -16,6 +17,7 @@ input {
 
 input[type="submit"] {
   background-color: #000;
+  width: 104%;
   color: #fff;
   border: none;
 }
